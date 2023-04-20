@@ -1,0 +1,10 @@
+OBJETIVO
+    Pulsar el botón tantas veces como puedas.
+
+
+TIEMPO
+    30 segundos.
+
+
+PUNTUACIÓN
+    ·Cada pulsación en el botón se sumará 1 punto.

@@ -1,0 +1,14 @@
+OBJETIVO
+    Llega hasta la meta antes de que el tiempo se agote y antes que tu rival.
+    ¡CUIDADO, no toques las bombas!
+
+
+TIEMPO
+    30 segundos.
+
+
+PUNTUACIÓN
+    Choque con bomba:       -10 puntos.
+    Llegar a la meta:       + puntos restantes.
+    No llegar a la meta:    0 puntos.
+    *Si llegas a la meta con 0 puntos se te sumarán 10 puntos.

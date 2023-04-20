@@ -1,0 +1,14 @@
+OBJETIVO
+    Escuchar el sonido atentamente.
+    Adivinar qué es lo que suena lo antes posible.
+
+
+TIEMPO
+    3 partidas con:
+        · 3 segundos para elegir una opción.
+
+
+PUNTUACIÓN
+    ·Dependiendo del tiempo que se tarde en elegir una carta se pueden ganar 75, 50, 40, 30, 20 o 10 puntos.
+    ·Fallo:                                     -20 puntos.
+    ·No responder:                     0 puntos.

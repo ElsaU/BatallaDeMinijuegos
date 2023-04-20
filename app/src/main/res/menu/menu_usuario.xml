@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/ tools"
+    tools:context=".MainActivity">
+    <item
+        android:id="@+id/editNombreUsuario"
+        android:icon="@android:drawable/ic_menu_edit"
+        android:title="@string/item_edit_nombre"
+        android:visible="false"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/modCon"
+        android:enabled="true"
+        android:icon="@android:drawable/ic_menu_edit"
+        android:title="@string/item_mod_contra"
+        android:visible="false"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/cerrarSesion"
+        android:enabled="true"
+        android:icon="@android:drawable/ic_menu_edit"
+        android:title="@string/item_cerrar_sesion"
+        android:visible="false"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/eliminarCuenta"
+        android:enabled="true"
+        android:icon="@android:drawable/ic_menu_edit"
+        android:title="@string/item_eliminar_cuenta"
+        android:visible="false"
+        app:showAsAction="never" />
+</menu>

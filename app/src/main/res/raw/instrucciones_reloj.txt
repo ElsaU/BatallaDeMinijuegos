@@ -1,0 +1,19 @@
+OBJETIVO
+    Parar el cronómetro en el tiempo indicado o quedarte lo más cerca posible.
+    ¡CUIDADO! ¡No te puedes pasar!
+    El reloj se tapará y deberás contar mentalmente.
+
+
+TIEMPO
+    3 partidas de tiempo variado.
+
+
+PUNTUACIÓN
+    ·Pasarse de tiempo:                 -20 puntos.
+    ·Parar en el tiempo:                +100 puntos.
+    ·Parar cerca +
+        fallo del otro jugador          +70 puntos.
+    ·Parar más cerca:                   +50 puntos.
+    ·Empate                                  +25 puntos.
+    ·Parar más lejos:                     0 puntos.
+    ·No parar:                               0 puntos.

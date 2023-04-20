@@ -1,0 +1,15 @@
+OBJETIVO
+    Explotar el mayor número de globos.
+    ¡Cuidado con los globos negros!
+
+
+TIEMPO
+    30 segundos.
+
+
+PUNTUACIÓN
+    ·Globos amarillos:               +5 puntos.
+    ·Globos verdes:                  +3 puntos.
+    ·Globos morados:                +3 puntos.
+    ·Globos negros:                  -3 puntos.
+    ·Globos restantes:               +1 punto.

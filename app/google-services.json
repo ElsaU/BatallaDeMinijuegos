@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "730029376535",
+    "project_id": "batallademinijuegos",
+    "storage_bucket": "batallademinijuegos.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:730029376535:android:c0a2fee36e2f3e34258852",
+        "android_client_info": {
+          "package_name": "com.example.batallademinijuegos"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "730029376535-oqctdchf5gane3e2k03pq4nk3foosa3i.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBhOd_NQAEk-MU-xwJfWahs4XP8G4_BC00"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "730029376535-oqctdchf5gane3e2k03pq4nk3foosa3i.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#64D18C"
+    tools:context=".activities.ActivityInicio">
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="338dp"
+        android:layout_height="290dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.01999998"
+        app:srcCompat="@drawable/titulo" />
+
+    <Button
+        android:id="@+id/botonBatalla"
+        android:layout_width="220dp"
+        android:layout_height="114dp"
+        android:background="@drawable/color_azul"
+        android:fontFamily="@font/best_in_class"
+        android:onClick="batalla"
+        android:text="@string/boton_batalla"
+        android:textColor="#D5FAFAFA"
+        android:textSize="40sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView5"
+        app:layout_constraintVertical_bias="0.18" />
+
+    <Button
+        android:id="@+id/botonPracticar"
+        android:layout_width="220dp"
+        android:layout_height="114dp"
+        android:background="@drawable/color_naranja"
+        android:fontFamily="@font/best_in_class"
+        android:onClick="practicar"
+        android:text="@string/boton_practicar"
+        android:textColor="#D5FAFAFA"
+        android:textSize="40sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/botonBatalla"
+        app:layout_constraintVertical_bias="0.3" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

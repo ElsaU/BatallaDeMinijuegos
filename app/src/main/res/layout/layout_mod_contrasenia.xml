@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/color_verde_main"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginRight="15dp"
+        android:fontFamily="@font/best_in_class"
+        android:lineSpacingExtra="30sp"
+        android:text="@string/text_contra_acutal"
+        android:textColor="#D5FAFAFA"
+        android:textSize="24sp" />
+
+    <EditText
+        android:id="@+id/textContraActual"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:ems="10"
+        android:fontFamily="@font/best_in_class"
+        android:hint="@string/hint_contra_actual"
+        android:inputType="textPassword"
+        android:textColor="#D5FAFAFA"
+        android:textSize="20sp"
+        tools:ignore="TouchTargetSizeCheck" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginRight="15dp"
+        android:fontFamily="@font/best_in_class"
+        android:lineSpacingExtra="30sp"
+        android:text="@string/text_contra_nueva1"
+        android:textColor="#D5FAFAFA"
+        android:textSize="24sp" />
+
+    <EditText
+        android:id="@+id/textContraNueva"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:ems="10"
+        android:fontFamily="@font/best_in_class"
+        android:hint="@string/hint_contra_nueva"
+        android:inputType="textPassword"
+        android:textColor="#D5FAFAFA"
+        android:textSize="20sp"
+        tools:ignore="TouchTargetSizeCheck" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginRight="15dp"
+        android:fontFamily="@font/best_in_class"
+        android:lineSpacingExtra="30sp"
+        android:text="@string/text_contra_nueva2"
+        android:textColor="#D5FAFAFA"
+        android:textSize="24sp" />
+
+    <EditText
+        android:id="@+id/textContraNueva2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginBottom="30dp"
+        android:ems="10"
+        android:fontFamily="@font/best_in_class"
+        android:hint="@string/hint_contra_nueva"
+        android:inputType="textPassword"
+        android:textColor="#D5FAFAFA"
+        android:textSize="20sp"
+        tools:ignore="TouchTargetSizeCheck" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="94dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/botonCancelar"
+            style="@style/Widget.AppCompat.Button.Borderless"
+            android:layout_width="150dp"
+            android:layout_height="75dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginBottom="30dp"
+            android:layout_weight="1"
+            android:background="@drawable/color_azul"
+            android:fontFamily="@font/best_in_class"
+            android:onClick="registrar"
+            android:text="@string/boton_cancelar"
+            android:textColor="#D5FAFAFA"
+            android:textSize="28sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/botonAceptar"
+            style="@style/Widget.AppCompat.Button.Borderless"
+            android:layout_width="150dp"
+            android:layout_height="75dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginBottom="30dp"
+            android:layout_weight="1"
+            android:background="@drawable/color_naranja"
+            android:fontFamily="@font/best_in_class"
+            android:onClick="acceder"
+            android:text="@string/boton_aceptar"
+            android:textColor="#D5FAFAFA"
+            android:textSize="28sp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/textCargando"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:fontFamily="@font/best_in_class"
+        android:text="@string/etiq_cargando"
+        android:textAlignment="center"
+        android:textColor="#D5FAFAFA"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        tools:visibility="invisible" />
+
+</LinearLayout>
